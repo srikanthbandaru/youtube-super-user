@@ -1,7 +1,7 @@
 {
     "name": "YouTube Super User",
     "version": "1.0.0",
-    "description": "Gives you super user access to YouTube. Let's you control video speed using keyboard.",
+    "description": "Gives you super user access to YouTube. Let's you control video speed using keyboard. Displays total duration of a playlist.",
     "author": "Srikanth Bandaru",
     "icons": {
         "16": "/superUserLogo.png",
