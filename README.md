@@ -1,7 +1,7 @@
 # Youtube Super User
 Gives you power user access to YouTube. Let's you control video speed using keyboard. Displays total duration of a playlist.
 <p align="center">
-  <img src="./banner.gif" alt="usage" />
+  <img src="https://raw.githubusercontent.com/srikanthbandaru/youtube-super-user/master/banner.gif" alt="usage" />
 </p>
 
 ## Features
