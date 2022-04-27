@@ -1,22 +1,22 @@
 {
-    "name": "YouTube Super User",
-    "version": "1.0.0",
-    "description": "Gives you super user access to YouTube. Let's you control video speed using keyboard. Displays total duration of a playlist.",
-    "author": "Srikanth Bandaru",
-    "icons": {
-        "16": "/superUserLogo.png",
-        "48": "/superUserLogo.png",
-        "128": "/superUserLogo.png"
-    },
-    "browser_action": {
-        "default_popup": "index.html"
-    },
-    "content_scripts": [
-        {
-            "matches": ["*://www.youtube.com/*"],
-            "js": ["contentScript.js"],
-            "run_at": "document_end"
-        }
-    ],
-    "manifest_version": 2
+  "name": "YouTube Super User",
+  "version": "1.0.2",
+  "description": "Gives you super user access to YouTube. Let's you control video speed using keyboard. Displays total duration of a playlist.",
+  "author": "Srikanth Bandaru",
+  "icons": {
+    "16": "/superUserLogo.png",
+    "48": "/superUserLogo.png",
+    "128": "/superUserLogo.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
 }
